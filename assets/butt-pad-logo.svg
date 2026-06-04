@@ -1,78 +1,148 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
-  <title id="title">Butt Pad</title>
-  <desc id="desc">An 80s neon style Butt Pad wordmark with a transparent background.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 260" role="img" aria-labelledby="title desc">
+  <title id="title">Butt Pad Safety Shorts</title>
+  <desc id="desc">A bold retro sticker-style Butt Pad logo with hot pink, orange, yellow, white, and dark outlines.</desc>
   <defs>
-    <linearGradient id="sunset" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#fff06a" />
-      <stop offset="0.25" stop-color="#ff9a3d" />
-      <stop offset="0.5" stop-color="#ff3f9d" />
-      <stop offset="0.75" stop-color="#7b4cf4" />
-      <stop offset="1" stop-color="#27d7ff" />
+    <linearGradient id="letter-fill" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff75a" />
+      <stop offset="0.18" stop-color="#ffb63d" />
+      <stop offset="0.46" stop-color="#ff4b8f" />
+      <stop offset="0.72" stop-color="#d737d6" />
+      <stop offset="1" stop-color="#7b4cf4" />
     </linearGradient>
-    <linearGradient id="stripe" x1="0" x2="1">
-      <stop offset="0" stop-color="#27d7ff" />
-      <stop offset="0.5" stop-color="#ff3f9d" />
-      <stop offset="1" stop-color="#fff06a" />
+    <linearGradient id="shine" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.98" />
+      <stop offset="0.42" stop-color="#ffffff" stop-opacity="0.72" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
     </linearGradient>
-    <filter id="glow" x="-10%" y="-25%" width="120%" height="150%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
-      <feColorMatrix
-        in="blur"
-        type="matrix"
-        values="1 0 0 0 0.9  0 1 0 0 0.1  0 0 1 0 0.7  0 0 0 0.85 0"
-        result="pink-glow"
-      />
-      <feMerge>
-        <feMergeNode in="pink-glow" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
+    <linearGradient id="bolt-fill" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffe75a" />
+      <stop offset="1" stop-color="#ff3f9d" />
+    </linearGradient>
+    <filter id="sticker-shadow" x="-10%" y="-20%" width="120%" height="145%">
+      <feDropShadow dx="0" dy="12" stdDeviation="0" flood-color="#202033" flood-opacity="0.98" />
+      <feDropShadow dx="0" dy="0" stdDeviation="7" flood-color="#ffffff" flood-opacity="0.78" />
     </filter>
   </defs>
-  <g fill="none" stroke-linecap="round">
-    <path d="M78 165 C170 120 268 115 358 150 S548 192 672 126" stroke="#27d7ff" stroke-width="12" opacity="0.72" />
-    <path d="M92 186 C190 146 284 145 365 174 S552 210 688 152" stroke="#ff3f9d" stroke-width="8" opacity="0.82" />
-    <path d="M116 205 H676" stroke="url(#stripe)" stroke-width="8" opacity="0.9" />
+
+  <g filter="url(#sticker-shadow)">
+    <path
+      d="M91 182 C169 131 278 123 378 158 C484 195 577 202 708 140"
+      fill="none"
+      stroke="#202033"
+      stroke-width="30"
+      stroke-linecap="round"
+    />
+    <path
+      d="M91 182 C169 131 278 123 378 158 C484 195 577 202 708 140"
+      fill="none"
+      stroke="#fffaf2"
+      stroke-width="20"
+      stroke-linecap="round"
+    />
+    <path
+      d="M91 182 C169 131 278 123 378 158 C484 195 577 202 708 140"
+      fill="none"
+      stroke="#ff3f9d"
+      stroke-width="10"
+      stroke-linecap="round"
+    />
+    <path
+      d="M126 211 C241 178 342 181 441 207 C523 229 612 224 721 184"
+      fill="none"
+      stroke="#202033"
+      stroke-width="19"
+      stroke-linecap="round"
+    />
+    <path
+      d="M126 211 C241 178 342 181 441 207 C523 229 612 224 721 184"
+      fill="none"
+      stroke="#ffd84f"
+      stroke-width="10"
+      stroke-linecap="round"
+    />
   </g>
-  <g filter="url(#glow)">
+
+  <g filter="url(#sticker-shadow)">
+    <path d="M665 42 L701 22 L688 62 L727 55 L695 79 L720 111 L676 94 L646 125 L654 84 L614 75 L654 60 Z" fill="#202033" />
+    <path d="M666 35 L696 18 L685 54 L718 48 L691 69 L712 96 L675 82 L650 108 L657 73 L624 65 L657 52 Z" fill="url(#bolt-fill)" />
     <text
-      x="380"
-      y="128"
+      x="410"
+      y="138"
       text-anchor="middle"
-      fill="#222033"
-      stroke="#222033"
-      stroke-width="16"
+      fill="#202033"
+      stroke="#202033"
+      stroke-width="28"
       paint-order="stroke"
       font-family="Impact, 'Arial Black', sans-serif"
-      font-size="112"
+      font-size="122"
       font-style="italic"
       font-weight="900"
       letter-spacing="1"
     >Butt Pad</text>
     <text
-      x="380"
-      y="128"
+      x="410"
+      y="138"
       text-anchor="middle"
-      fill="url(#sunset)"
-      stroke="#fff8d8"
-      stroke-width="5"
+      fill="#fffaf2"
+      stroke="#fffaf2"
+      stroke-width="15"
       paint-order="stroke"
       font-family="Impact, 'Arial Black', sans-serif"
-      font-size="112"
+      font-size="122"
       font-style="italic"
       font-weight="900"
       letter-spacing="1"
     >Butt Pad</text>
     <text
-      x="382"
-      y="154"
+      x="410"
+      y="138"
       text-anchor="middle"
-      fill="#27d7ff"
-      opacity="0.78"
+      fill="url(#letter-fill)"
+      stroke="#202033"
+      stroke-width="4"
+      paint-order="stroke"
       font-family="Impact, 'Arial Black', sans-serif"
-      font-size="46"
+      font-size="122"
       font-style="italic"
       font-weight="900"
-      letter-spacing="10"
+      letter-spacing="1"
+    >Butt Pad</text>
+    <text
+      x="410"
+      y="96"
+      text-anchor="middle"
+      fill="url(#shine)"
+      font-family="Impact, 'Arial Black', sans-serif"
+      font-size="35"
+      font-style="italic"
+      font-weight="900"
+      letter-spacing="8"
+      opacity="0.82"
+    >BUTT PAD</text>
+    <text
+      x="411"
+      y="170"
+      text-anchor="middle"
+      fill="#202033"
+      stroke="#fffaf2"
+      stroke-width="7"
+      paint-order="stroke"
+      font-family="Impact, 'Arial Black', sans-serif"
+      font-size="37"
+      font-style="italic"
+      font-weight="900"
+      letter-spacing="9"
+    >SAFETY SHORTS</text>
+    <text
+      x="411"
+      y="170"
+      text-anchor="middle"
+      fill="#ffd84f"
+      font-family="Impact, 'Arial Black', sans-serif"
+      font-size="37"
+      font-style="italic"
+      font-weight="900"
+      letter-spacing="9"
     >SAFETY SHORTS</text>
   </g>
 </svg>

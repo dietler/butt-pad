@@ -176,6 +176,19 @@ a {
     linear-gradient(180deg, rgba(255, 250, 242, 0.18) 0%, rgba(255, 250, 242, 0) 20%, rgba(18, 20, 44, 0.1) 100%);
 }
 
+.hero-brand-lockup {
+  position: absolute;
+  z-index: 2;
+  top: clamp(112px, 15vh, 142px);
+  left: max(28px, calc((100vw - 1120px) / 2 + 10px));
+  width: min(540px, 42vw);
+  pointer-events: none;
+}
+
+.hero-brand-lockup h1 {
+  max-width: none;
+}
+
 .hero-copy {
   position: relative;
   z-index: 1;
@@ -221,10 +234,10 @@ h1 {
 }
 
 .hero-logo {
-  width: clamp(320px, 44vw, 590px);
+  width: 100%;
   filter:
-    drop-shadow(0 8px 0 rgba(32, 32, 51, 0.8))
-    drop-shadow(0 0 16px rgba(255, 255, 255, 0.9));
+    drop-shadow(0 10px 0 rgba(32, 32, 51, 0.76))
+    drop-shadow(0 0 18px rgba(255, 255, 255, 0.92));
 }
 
 h2 {
@@ -873,8 +886,10 @@ input[type="number"] {
     padding-bottom: clamp(82px, 10vh, 110px);
   }
 
-  .hero-logo {
-    width: min(500px, 70vw);
+  .hero-brand-lockup {
+    top: clamp(38px, 6vh, 70px);
+    left: 20px;
+    width: min(430px, 58vw);
   }
 
   .hero-line {
@@ -964,17 +979,19 @@ input[type="number"] {
     text-align: center;
   }
 
+  .hero-brand-lockup {
+    top: 18px;
+    left: 50%;
+    width: min(84vw, 326px);
+    transform: translateX(-50%);
+  }
+
   .hero .eyebrow {
     display: none;
   }
 
   h1 {
     max-width: 100%;
-  }
-
-  .hero-logo {
-    width: min(80vw, 300px);
-    margin: 0 auto;
   }
 
   .hero-line {
