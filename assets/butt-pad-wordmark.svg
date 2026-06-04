@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 150" role="img" aria-labelledby="title desc">
+  <title id="title">Butt Pad</title>
+  <desc id="desc">A playful 80s style Butt Pad wordmark with a transparent background.</desc>
+  <defs>
+    <linearGradient id="sunset" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff06a" />
+      <stop offset="0.26" stop-color="#ff9a3d" />
+      <stop offset="0.52" stop-color="#ff3f9d" />
+      <stop offset="0.78" stop-color="#7b4cf4" />
+      <stop offset="1" stop-color="#27d7ff" />
+    </linearGradient>
+    <filter id="glow" x="-12%" y="-32%" width="124%" height="164%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feColorMatrix
+        in="blur"
+        type="matrix"
+        values="1 0 0 0 0.9  0 1 0 0 0.1  0 0 1 0 0.7  0 0 0 0.82 0"
+        result="pink-glow"
+      />
+      <feMerge>
+        <feMergeNode in="pink-glow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#glow)">
+    <text
+      x="280"
+      y="106"
+      text-anchor="middle"
+      fill="#222033"
+      stroke="#222033"
+      stroke-width="16"
+      paint-order="stroke"
+      font-family="Impact, 'Arial Black', sans-serif"
+      font-size="104"
+      font-style="italic"
+      font-weight="900"
+      letter-spacing="1"
+    >Butt Pad</text>
+    <text
+      x="280"
+      y="106"
+      text-anchor="middle"
+      fill="url(#sunset)"
+      stroke="#fff8d8"
+      stroke-width="5"
+      paint-order="stroke"
+      font-family="Impact, 'Arial Black', sans-serif"
+      font-size="104"
+      font-style="italic"
+      font-weight="900"
+      letter-spacing="1"
+    >Butt Pad</text>
+  </g>
+</svg>
