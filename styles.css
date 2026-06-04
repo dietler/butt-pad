@@ -133,14 +133,14 @@ a {
   content: "";
   background:
     linear-gradient(90deg, var(--paper) 0%, rgba(255, 250, 242, 0) 9%, rgba(255, 250, 242, 0) 91%, var(--paper) 100%),
-    linear-gradient(180deg, rgba(255, 250, 242, 0.2) 0%, rgba(255, 250, 242, 0) 15%, rgba(255, 250, 242, 0) 34%, rgba(255, 250, 242, 0.92) 50%, var(--paper) 62%);
+    linear-gradient(180deg, rgba(255, 250, 242, 0.12) 0%, rgba(255, 250, 242, 0) 18%, rgba(255, 250, 242, 0) 88%, rgba(255, 250, 242, 0.14) 100%);
   pointer-events: none;
 }
 
 .hero-shade {
   background:
     linear-gradient(90deg, rgba(18, 20, 44, 0.74) 0%, rgba(18, 20, 44, 0.38) 44%, rgba(18, 20, 44, 0.02) 88%),
-    linear-gradient(180deg, rgba(18, 20, 44, 0.12) 0%, rgba(18, 20, 44, 0.04) 50%, rgba(255, 250, 242, 0.94) 100%);
+    linear-gradient(180deg, rgba(18, 20, 44, 0.12) 0%, rgba(18, 20, 44, 0.04) 50%, rgba(18, 20, 44, 0.14) 100%);
 }
 
 .hero-copy {
@@ -817,7 +817,8 @@ input[type="number"] {
 
   .hero-shade {
     background:
-      linear-gradient(180deg, rgba(18, 20, 44, 0.52) 0%, rgba(18, 20, 44, 0.22) 34%, rgba(18, 20, 44, 0.82) 100%);
+      linear-gradient(90deg, rgba(18, 20, 44, 0.58) 0%, rgba(18, 20, 44, 0.28) 44%, rgba(18, 20, 44, 0.04) 88%),
+      linear-gradient(180deg, rgba(18, 20, 44, 0.16) 0%, rgba(18, 20, 44, 0.04) 48%, rgba(18, 20, 44, 0.18) 100%);
   }
 
   .hero-copy {
